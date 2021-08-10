@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+       label.genero {
+            display: inline-block;
+            width: 90px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="name">Nome completo</label>
+        <input type="text" name="nome" id="nome">
+        <br><br>
+        <label for="data">data de nascimento</label>
+        <input type="date" name="data" id="data">
+        <br><br>
+        <label for="estados">Selecione o Estado em que mora:</label>
+        <select name="estados" id="estados">
+            <option value="">Secione o Estado</option>
+            <option value="Céara">Céara</option>
+            <option value="Pernambuco">Pernambuco</option>
+            <option value="alagoas">Alagoas</option>
+            <option value="são paulo">São paulo</option>
+            <option value="rio de janeiro">Rio de janeiro</option>
+        </select>
+        
+        
+        <br><br>
+        <div class="genero">
+            <label for="Genero" class="genero">qual o seu Gênero?</label><br><br>
+            <input type="radio" name="genero" id="masc" value="masculino">
+            <label for="masculino" class="genero">masculino</label><br>
+            <input type="radio" name="genero" id="fem" value="feminino">
+            <label for="feminino" class="genero">feminino</label><br>
+            <input type="radio" name="genero" id="outro" value="outro">
+            <label for="outro" class="genero">outro</label><br>
+            <br><br>
+            <input type="submit" value="enviar">
+        </div>
+        <label for="number">5+4 é?</label>
+        <input type="number" name="number" id="number">
+        <br><br>
+        <input type="submit" value="Salvar">
+    </form>
+
+
+    </body>
+</html>
